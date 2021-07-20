@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header_bg{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    opacity: .5;
+    position: relative;
+}
+.bg_overlay{
+    width: 100%;
+    height: 600px;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color:#d10046;
+    opacity: .9;
+}
+.logo{
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    
+}
+
+.logo i.fab{
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: red;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    right: 125px;
+
+}
+.menu ul{
+    list-style: none;
+    float: right;
+    
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.header_text{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+   
+    
+}
+.header_text h1{
+    color: #fff;
+    margin: 5px;
+    font-weight: 400;
+    
+}
+.header_text p{
+    color: #fff;
+    margin: 5px;
+    font-weight: 400;
+    
+}
+.line1{
+    position: absolute;
+    top: 80%;
+    left: 130px;
+    width: 80px;
+    height: 2px;
+    background-color: #fff;
+}
+.line2{
+    position: absolute;
+    top: 80%;
+    left:315px;
+    width: 80px;
+    height: 2px;
+    background-color: #fff;
+}
+.angle{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+.angle i.fas{
+   color: #fff;
+  
+}
+
+.section_padding{
+    margin: 50px 0px;
+    padding: 10px 0;
+    position: relative;
+}
+.line3{
+    position: absolute;
+    top: 85%;
+    left: 47%;
+    width: 80px;
+    height: 2px;
+    background-color: #ddd;
+
+}
+.mainbox{
+    margin-left: 177px;
+}
+.box{
+    width: 26%;
+}
+
+.single_box{
+    margin-bottom: 50px;
+}
+.single_box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.single_box h3{
+    margin-bottom: 10px;
+}
+.single_box p{
+   color: gray;
+   padding: 3px;
+   font-style: italic;
+}
+.slider_section{
+    width: 100%;
+    height: 100%;
+    background-color: #DEE1E6;
+    
+}
+.slider{
+    width: 80%;
+    margin: 50px 0px;
+    margin-left: 10%;
+}
+.slider .splide__slide img {
+   
+    margin: 0 5px;
+}
+i.fab.fa-instagram-square {
+    font-size: 30px;
+    margin-right: 10px;
+}
+button {
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+.contact{
+    background-color: #C53163;
+    height: 100%;
+    
+}
+.contact h2{
+    color: #fff;
+}
+
+.contact_form input {
+    margin-bottom: 23px;
+    padding: 10px;
+    width: 350px;
+    border: none;
+}
+.contact_form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 350px;
+    border: none;
+}
+.contact_form button {
+    margin-bottom: 20px;
+    padding: 8PX;
+    width: 350px;
+    border: none;
+    background-color:#333333;
+    color: #fff;
+}
+.location_text p{
+    color: #fff;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+.footer_area{
+        background-color: #333;
+        height: 100%;
+        
+}
+.fmenu{
+    margin-top: 50px;
+    color: #fff;
+}
+.fmenu ul{
+    list-style: none;
+    
+}
+.fmenu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+
+   
+}
+.fmenu ul li a{
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.fmenu i.fab.fa-pagelines {
+    background-color: #C53163;
+    padding: 10px;
+    border-radius: 50%;
+    color:#fff;
+
+}
+
+.social i.fab {
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px 18px;
+    background: #fff;
+    margin-bottom: 50px;
+}
+.social i.fab:hover {
+    background-color: #C53163;
+    color:#fff;
+}
